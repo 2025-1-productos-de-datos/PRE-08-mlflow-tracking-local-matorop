@@ -1,0 +1,16 @@
+artifact_uri: file:C:\Users\1234\Documents\Especialización\Segundo semestre\Producto
+  de datos\Sesion 7\PRE-08-mlflow-tracking-local-matorop\my_mlruns/260769639970575283/bca34e2cec224991b997b9155bc88917/artifacts
+end_time: 1748101532872
+entry_point_name: ''
+experiment_id: '260769639970575283'
+lifecycle_stage: active
+run_id: bca34e2cec224991b997b9155bc88917
+run_name: elasticnet_e378fc97
+run_uuid: bca34e2cec224991b997b9155bc88917
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748101532767
+status: 3
+tags: []
+user_id: '1234'
