@@ -1,0 +1,7 @@
+artifact_location: file:C:\Users\1234\Documents\Especialización\Segundo semestre\Producto
+  de datos\Sesion 7\PRE-08-mlflow-tracking-local-matorop\my_mlruns/260769639970575283
+creation_time: 1748101026345
+experiment_id: '260769639970575283'
+last_update_time: 1748101026345
+lifecycle_stage: active
+name: wine_quality_experiment

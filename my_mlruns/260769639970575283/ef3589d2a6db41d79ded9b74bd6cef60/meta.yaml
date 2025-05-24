@@ -1,0 +1,16 @@
+artifact_uri: file:C:\Users\1234\Documents\Especialización\Segundo semestre\Producto
+  de datos\Sesion 7\PRE-08-mlflow-tracking-local-matorop\my_mlruns/260769639970575283/ef3589d2a6db41d79ded9b74bd6cef60/artifacts
+end_time: 1748101072419
+entry_point_name: ''
+experiment_id: '260769639970575283'
+lifecycle_stage: active
+run_id: ef3589d2a6db41d79ded9b74bd6cef60
+run_name: knn_cd47984d
+run_uuid: ef3589d2a6db41d79ded9b74bd6cef60
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748101072269
+status: 3
+tags: []
+user_id: '1234'

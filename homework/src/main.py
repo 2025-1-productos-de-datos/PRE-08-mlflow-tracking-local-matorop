@@ -1,3 +1,4 @@
+## Librerias de mlflow
 import os
 import uuid
 import warnings
@@ -37,12 +38,12 @@ def main():
     ## de los modelos llamado my_runs. Puede ser un disco de red
     ## o un bucket de S3, por ejemplo.
     ##
+    working_directory = os.path.abspath(os.getcwd())
+    mlflow_runs_path = os.path.join(working_directory, "my_mlruns")
 
+    if not os.path.exists(mlflow_runs_path):
+        os.makedirs(mlflow_runs_path)
 
-working_directory = os.path.abspath(os.getcwd())
-mlflow_runs_path = os.path.join(working_directory, "my_mlruns")
-if not os.path.exists(mlflow_runs_path):
-    os.makedirs(mlflow_runs_path)
     mlflow.set_tracking_uri("file:" + mlflow_runs_path)
 
     ## Autotracking para sklearn
@@ -103,5 +104,5 @@ if not os.path.exists(mlflow_runs_path):
         # save_model_if_better(model, x_test, y_test)
 
 
-if __name__ == "__main__":
+if __name__ == "_main_":
     main()
